@@ -15,7 +15,7 @@ void setup() {
 void loop() {
 
   // S
-  for(int i=0; i<3; i++){           // Create a number "i" and repeat the following until "i" is not less than 3, adding 1 to "i" each repitition
+  for(int i=0; i<3; i++){           // Create a number "i" and repeat the following until "i" is not less than 3, adding 1 to "i" each repetition
     digitalWrite(ledPin, HIGH);     // Turn on the LED
     delay(dotLen);                  // Wait a dot's worth of time
     digitalWrite(ledPin, LOW);      // Turn off the LED
